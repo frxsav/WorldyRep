@@ -1,0 +1,56 @@
+img.icon-sm{
+width:20px
+}
+
+img.icon-md{
+width: 60px
+}
+
+img.icon-lg{
+width:120px
+}
+
+.table-head{
+    background-color: #292b2c !important;
+    color: white !important;
+}
+
+.border-lg{
+    border-radius: 100px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+button:hover{
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+@font-face {
+    font-family: 'ciro';
+    src: url('./wwwroot/font/font.woff');
+}
+
+.dim-box{
+    width: 40%;
+    height: 70%;
+}
+
+body.placche{
+    background-image: url("/./wwwroot/img/sfondo.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button:focus{
+    outline: none;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
